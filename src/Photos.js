@@ -15,7 +15,8 @@ export default function Photos(props){
                 rel="noreferrer"
                 alt="original-photo">
             <img  src={photo.src.landscape}
-             className="img-fluid" /> </a> </div> 
+             className="img-fluid" 
+             alt="landscape-photo"/> </a> </div> 
           )})}</div>
     </section>
     );

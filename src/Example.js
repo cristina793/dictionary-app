@@ -7,7 +7,6 @@ export default function Example(props){
                 <p>Example: {props.example}</p>
             </div>
         )
-
     }
     else{
         return null;
